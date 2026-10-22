@@ -33,6 +33,10 @@ npm run build      # production build
    - Try the buttons that fill values in for you.
    - Try values formatted slightly differently than the examples.
    - Try reloading the page.
-3. **Go parallel.** Start several cloud agents, each on its own tool, and review the PRs as they come in.
+3. **Go parallel.** Start several cloud agents, each on its own issue, and review the PRs as they come in.
+
+### Your own copy
+
+Click **Use this template** (tick *Include all branches* to get `demo-start`). The *Seed demo issues* workflow creates the issues in your copy on the first push. If they don't show up, run it manually from the **Actions** tab.
 
 See [`CLAUDE.md`](./CLAUDE.md) for how the project is structured.
