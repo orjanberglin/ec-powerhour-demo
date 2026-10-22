@@ -7,13 +7,16 @@ Built as a demo project for working with Claude Code, both locally and with clou
 ## Getting started
 
 ```sh
-git clone <repo-url> toolbox
+git clone https://github.com/orjanberglin/ec-powerhour-demo.git toolbox
 cd toolbox
+git checkout -b my-attempt demo-start
 npm install
 npm run dev
 ```
 
 Requires Node 22.12+.
+
+`demo-start` is the project as it was before the demo: some tools unbuilt, bugs included. `main` has whatever was merged during the session.
 
 ```sh
 npm test           # unit tests
