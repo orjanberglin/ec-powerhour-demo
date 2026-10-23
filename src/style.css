@@ -10,9 +10,24 @@
   --success: #2b8a3e;
   --radius: 8px;
   --mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  color-scheme: light dark;
   font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
   color: var(--text);
   background: var(--bg);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a19;
+    --surface: #242422;
+    --border: #45443f;
+    --text: #ececea;
+    --muted: #a3a29c;
+    --accent: #91a7ff;
+    --accent-text: #1a1a19;
+    --error: #ff8787;
+    --success: #69db7c;
+  }
 }
 
 * {
